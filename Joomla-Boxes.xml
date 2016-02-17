@@ -6,7 +6,7 @@
     <description>Boxes for the homepage.</description>
     <files>
         <filename>Joomla-Boxes.xml</filename>
-        <filename module="mod_helloworld">Joomla-Boxes.php</filename>
+        <filename module="Joomla-Boxes">Joomla-Boxes.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>
