@@ -2,6 +2,8 @@
 <extension type="module" version="3.1.0" client="site" method="upgrade">
     <name>Joomla-Boxes</name>
     <author>Hussam Almoharb</author>
+    <authorEmail>hussam.am@gmail.com</authorEmail>
+	  <authorUrl>http://hussam-m.com</authorUrl>
     <version>0.0.1</version>
     <description>Boxes for the homepage.</description>
     <files>
@@ -9,8 +11,7 @@
         <filename module="mod_Joomla-Boxes">mod_Joomla-Boxes.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
-        <filename>tmpl/default.php</filename>
-        <filename>tmpl/index.html</filename>
+        <folder>tmpl</folder>
     </files>
     <config>
     </config>
