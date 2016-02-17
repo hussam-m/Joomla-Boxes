@@ -5,8 +5,8 @@
     <version>0.0.1</version>
     <description>Boxes for the homepage.</description>
     <files>
-        <filename>Joomla-Boxes.xml</filename>
-        <filename module="Joomla-Boxes">Joomla-Boxes.php</filename>
+        <filename>mod_Joomla-Boxes.xml</filename>
+        <filename module="mod_Joomla-Boxes">mod_Joomla-Boxes.php</filename>
         <filename>index.html</filename>
         <filename>helper.php</filename>
         <filename>tmpl/default.php</filename>

@@ -2,5 +2,5 @@
 // No direct access
 defined('_JEXEC') or die;
 
-require JModuleHelper::getLayoutPath('Joomla-Boxes');
+require JModuleHelper::getLayoutPath('mod_Joomla-Boxes');
 //echo '2';
