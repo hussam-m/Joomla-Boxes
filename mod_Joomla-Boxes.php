@@ -4,5 +4,5 @@ defined('_JEXEC') or die;
 require_once dirname(__FILE__) . '/helper.php';
 
 $hello = Boxes::info($params);
-require JModuleHelper::getLayoutPath('mod_Joomla-Boxes');
+require JModuleHelper::getLayoutPath('mod_Joomla-Boxes',$params->get('layout', 'default'));
 //echo '2';
