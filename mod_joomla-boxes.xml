@@ -15,7 +15,7 @@
     </files>
     <config>
       <fields name="params">
-        <fieldset name="box-1" label="Box 1:">
+        <fieldset name="box-1" label="Box 1">
           <field
               name="box-1-title"
               type="text"
@@ -38,7 +38,7 @@
               label="Link URL:"
           />
         </fieldset>
-        <fieldset name="box-2" label="Box 2:">
+        <fieldset name="box-2" label="Box 2">
           <field
               name="box-2-title"
               type="text"
@@ -61,7 +61,7 @@
               label="Link URL:"
           />
         </fieldset>
-        <fieldset name="box-3" label="Box 3:">
+        <fieldset name="box-3" label="Box 3">
           <field
               name="box-3-title"
               type="text"

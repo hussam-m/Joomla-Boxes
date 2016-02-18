@@ -1,8 +1,6 @@
 <?php
 // No direct access
 defined('_JEXEC') or die;?>
-<?php echo $hello; ?>
-<h1>Testing Boxes</h1>
 
 <div class="row-fluid boxes">
   <div class="span4">
