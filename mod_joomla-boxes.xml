@@ -14,6 +14,8 @@
         <folder>tmpl</folder>
     </files>
     <config>
+      <fields name="params">
+        <fieldset name="boxes">
       <field
     name="num"
     type="list"
@@ -40,5 +42,7 @@
         <files folder="admin">
             <filename>admin.php</filename>
         </files>
+      </fieldset>
+    </fields>
     </administration>
 </extension>
