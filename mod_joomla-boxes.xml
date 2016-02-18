@@ -16,33 +16,33 @@
     <config>
       <fields name="params">
         <fieldset name="boxes">
-      <field
-    name="num"
-    type="list"
-    label="Number of Boxes"
-    >
-      <option value="1">1</option>
-      <option value="2">2</option>
-    </field>
-    <field
-        name="box1"
-        type="text"
-        showon="num:1"
-        label="Box1: Title"
-    />
-    <field
-        name="box2"
-        type="text"
-        showon="num:1,2"
-        label="Box2: Title"
-    />
-    </config>
+          <field
+        name="num"
+        type="list"
+        label="Number of Boxes"
+        >
+          <option value="1">1</option>
+          <option value="2">2</option>
+        </field>
+        <field
+            name="box1"
+            type="text"
+            showon="num:1"
+            label="Box1: Title"
+        />
+        <field
+            name="box2"
+            type="text"
+            showon="num:1,2"
+            label="Box2: Title"
+        />
+        </config>
+      </fieldset>
+    </fields>
     <administration>
         <menu></menu>
         <files folder="admin">
             <filename>admin.php</filename>
         </files>
-      </fieldset>
-    </fields>
     </administration>
 </extension>
