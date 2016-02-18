@@ -25,11 +25,17 @@
               name="box-1-content"
               type="textarea"
               label="Content:"
+              rows="10" cols="80"
           />
           <field
-              name="box-1-link"
+              name="box-1-link-label"
+              type="text"
+              label="Link Label:"
+          />
+          <field
+              name="box-1-link-url"
               type="url"
-              label="Link:"
+              label="Link URL:"
           />
         </fieldset>
         <fieldset name="box-2" label="Box 2:">
@@ -42,28 +48,40 @@
               name="box-2-content"
               type="textarea"
               label="Content:"
+              rows="10" cols="80"
           />
           <field
-              name="box-2-link"
+              name="box-2-link-label"
+              type="text"
+              label="Link Label:"
+          />
+          <field
+              name="box-2-link-url"
               type="url"
-              label="Link:"
+              label="Link URL:"
           />
         </fieldset>
         <fieldset name="box-3" label="Box 3:">
           <field
-              name="box-1-title"
+              name="box-3-title"
               type="text"
               label="Title:"
           />
           <field
-              name="box-1-content"
+              name="box-3-content"
               type="textarea"
               label="Content:"
+              rows="10" cols="80"
           />
           <field
-              name="box-1-link"
+              name="box-3-link-label"
+              type="text"
+              label="Link Label:"
+          />
+          <field
+              name="box-3-link-url"
               type="url"
-              label="Link:"
+              label="Link URL:"
           />
         </fieldset>
       </fields>

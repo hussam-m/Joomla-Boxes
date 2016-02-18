@@ -8,28 +8,27 @@ defined('_JEXEC') or die;?>
   <div class="span4">
     <div class="thumbnail">
       <div class="caption">
-        <h3>S²ERC Brochure</h3>
-        <p>Read our brochure and get a glimpse of what S²ERC is all about.</p>
-        <a href="#" class="btn btn-primary" role="button">Download Brochure</a>
+        <h3><?=$params->get('box-1-title', '')?></h3>
+        <p><?=$params->get('box-1-content', '')?></p>
+        <a href="<?=$params->get('box-1-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
       </div>
     </div>
   </div>
   <div class="span4">
     <div class="thumbnail">
       <div class="caption">
-        <h3>Who is S2ERC?</h3>
-        <p>S²ERC researchers are faculty and students from CS, EE, Industrial Engineering, Management, Mathematics, and Systems Engineering programs at thirteen different universities...</p>
-        <a href="#" class="btn btn-primary" role="button">Read more</a>
+        <h3><?=$params->get('box-2-title', '')?></h3>
+        <p><?=$params->get('box-2-content', '')?></p>
+        <a href="<?=$params->get('box-2-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-2-link-label', '')?></a>
       </div>
     </div>
   </div>
   <div class="span4">
     <div class="thumbnail">
       <div class="caption">
-        <h3>Next Showcase</h3>
-        <p>Join us at Ball State University May 25-26, 2016 to celebrate 30 years
-as an NSF I/UCRC! </p>
-        <a href="#" class="btn btn-primary" role="button">Register Now</a>
+        <h3><?=$params->get('box-3-title', '')?></h3>
+        <p><?=$params->get('box-3-content', '')?></p>
+        <a href="<?=$params->get('box-3-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-3-link-label', '')?></a>
       </div>
     </div>
   </div>
