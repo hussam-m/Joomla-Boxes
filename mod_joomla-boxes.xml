@@ -15,26 +15,55 @@
     </files>
     <config>
       <fields name="params">
-          <fieldset name="boxes">
-            <field
-          name="num"
-          type="list"
-          label="Number of Boxes"
-          >
-            <option value="1">1</option>
-            <option value="2">2</option>
-          </field>
+        <fieldset name="box-1" label="Box 1:">
           <field
-              name="box1"
+              name="box-1-title"
               type="text"
-              showon="num:1"
-              label="Box1: Title"
+              label="Title:"
           />
           <field
-              name="box2"
+              name="box-1-content"
+              type="textarea"
+              label="Content:"
+          />
+          <field
+              name="box-1-link"
+              type="url"
+              label="Link:"
+          />
+        </fieldset>
+        <fieldset name="box-2" label="Box 2:">
+          <field
+              name="box-2-title"
               type="text"
-              showon="num:1,2"
-              label="Box2: Title"
+              label="Title:"
+          />
+          <field
+              name="box-2-content"
+              type="textarea"
+              label="Content:"
+          />
+          <field
+              name="box-2-link"
+              type="url"
+              label="Link:"
+          />
+        </fieldset>
+        <fieldset name="box-3" label="Box 3:">
+          <field
+              name="box-1-title"
+              type="text"
+              label="Title:"
+          />
+          <field
+              name="box-1-content"
+              type="textarea"
+              label="Content:"
+          />
+          <field
+              name="box-1-link"
+              type="url"
+              label="Link:"
           />
         </fieldset>
       </fields>
