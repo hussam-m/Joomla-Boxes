@@ -1,6 +1,6 @@
 <?php
 /*
-*   Joomla-Boxes is an extanstion for Joomla to show 3 div boxes in the Joomla page
+*   Joomla-Boxes is an extension for Joomla to show 3 div boxes in the Joomla page
 *   Hussam Almoharb
 *   hussam.am@gmail.com
 *   Last updated on 2/18/2016
