@@ -2,7 +2,7 @@
 // No direct access
 defined('_JEXEC') or die;
 $numberOfBoxes = $params->get('numberOfBoxes', '');
-$span = "span".12/$numberOfBoxes;
+$span = "span".(12/$numberOfBoxes);
 ?>
 
 <div class="row-fluid boxes">
