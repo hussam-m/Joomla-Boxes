@@ -15,15 +15,16 @@
     </files>
     <config>
       <fields name="params">
-        <field name="numberOfBoxes"
-       active="true"
-       type="meter"
-       label="Number of boxes"
-       max="3"
-       min="1"
-       step="1"
-       default="3"
-       />
+       <field
+          name="numberOfBoxes"
+          type="list"
+          label="Number of boxes"
+          default="3"
+          >
+          <option value="1">1</option>
+          <option value="2">2</option>
+          <option value="3">3</option>
+        </field>
         <fieldset name="box-1" label="Box 1">
           <field
               name="box-1-title"
