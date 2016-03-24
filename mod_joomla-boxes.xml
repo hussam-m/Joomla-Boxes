@@ -50,7 +50,7 @@
               label="Link URL:"
           />
         </fieldset>
-        <fieldset name="box-2" label="Box 2" showon="numberOfBoxes:1,2,3">
+        <fieldset name="box-2" label="Box 2" showon="numberOfBoxes:2,3">
           <field
               name="box-2-title"
               type="text"
@@ -73,7 +73,7 @@
               label="Link URL:"
           />
         </fieldset>
-        <fieldset name="box-3" label="Box 3" showon="numberOfBoxes:1,2,3">
+        <fieldset name="box-3" label="Box 3" showon="numberOfBoxes:3">
           <field
               name="box-3-title"
               type="text"
