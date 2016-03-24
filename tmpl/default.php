@@ -25,7 +25,7 @@ $span = "span".(12/$numberOfBoxes);
       </div>
     </div>
   </div>
-  <?php end if;  ?>
+  <?php endif;  ?>
   <?php if($numberOfBoxes > 2 ): ?>
   <div class="<?=$span?>">
     <div class="thumbnail">
@@ -36,5 +36,5 @@ $span = "span".(12/$numberOfBoxes);
       </div>
     </div>
   </div>
-  <?php end if;  ?>
+  <?php endif;  ?>
 </div>
