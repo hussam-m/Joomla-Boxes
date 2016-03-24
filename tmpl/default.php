@@ -1,9 +1,12 @@
 <?php
 // No direct access
-defined('_JEXEC') or die;?>
+defined('_JEXEC') or die;
+$numberOfBoxes = $params->get('numberOfBoxes', '');
+$span = "span".12/$numberOfBoxes;
+?>
 
 <div class="row-fluid boxes">
-  <div class="span4">
+  <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
         <h3><?=$params->get('box-1-title', '')?></h3>
@@ -12,7 +15,8 @@ defined('_JEXEC') or die;?>
       </div>
     </div>
   </div>
-  <div class="span4">
+  <?php if($numberOfBoxes > 1 ): ?>
+  <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
         <h3><?=$params->get('box-2-title', '')?></h3>
@@ -21,7 +25,9 @@ defined('_JEXEC') or die;?>
       </div>
     </div>
   </div>
-  <div class="span4">
+  <?php end if;  ?>
+  <?php if($numberOfBoxes > 2 ): ?>
+  <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
         <h3><?=$params->get('box-3-title', '')?></h3>
@@ -30,4 +36,5 @@ defined('_JEXEC') or die;?>
       </div>
     </div>
   </div>
+  <?php end if;  ?>
 </div>
