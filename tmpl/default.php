@@ -21,7 +21,11 @@ else{
         <h3><?=$params->get('box-1-title', '')?></h3>
         <p><?=$params->get('box-1-content', '')?></p>
         <?php if($params->get('box-1-link-url', '')!='' && $params->get('box-1-link-type', '')!='none'): ?>
-          <a href="<?=$params->get('box-1-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
+          <?php if($params->get('box-1-link-type', '')=='url'): ?>
+            <a href="<?=$params->get('box-1-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
+          <?php elseif($params->get('box-1-link-type', '')=='article'): ?>
+            <a href="<?=$params->get('box-1-link-article', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
+          <?php endif; ?>
         <?php endif; ?>
       </div>
     </div>
