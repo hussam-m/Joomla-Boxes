@@ -5,11 +5,16 @@ $numberOfBoxes = $params->get('numberOfBoxes', '');
 $layout = $params->get('layout', '');
 if($layout == "horizontal")
   $span = "span".(12/$numberOfBoxes);
-else
-  $span = "span12";
+else{
+    $span = "span12";
+    $beforeBox = '<div class="row-fluid">';
+    $afterBox = '</div>';
+}
 ?>
 
 <div class="row-fluid boxes">
+
+  <?=$beforeBox?>
   <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
@@ -19,7 +24,10 @@ else
       </div>
     </div>
   </div>
+  <?=$afterBox?>
+
   <?php if($numberOfBoxes > 1 ): ?>
+  <?=$beforeBox?>
   <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
@@ -29,8 +37,11 @@ else
       </div>
     </div>
   </div>
+  <?=$afterBox?>
   <?php endif;  ?>
+
   <?php if($numberOfBoxes > 2 ): ?>
+  <?=$beforeBox?>
   <div class="<?=$span?>">
     <div class="thumbnail">
       <div class="caption">
@@ -40,5 +51,7 @@ else
       </div>
     </div>
   </div>
+  <?=$afterBox?>
   <?php endif;  ?>
+  
 </div>
