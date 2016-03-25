@@ -50,11 +50,6 @@
               rows="10" cols="80"
           />
           <field
-              name="box-1-link-label"
-              type="text"
-              label="Link Label:"
-          />
-          <field
              name="box-1-link-type"
              type="list"
              label="Link Type"
@@ -62,13 +57,13 @@
              >
              <option value="none">No link</option>
              <option value="url">URL</option>
-             <option value="article">Article</option>
+             <!-- <option value="article">Article</option> -->
           </field>
           <field
-              showon="box-1-link-type:url"
-              name="box-1-link-url"
-              type="url"
-              label="Link URL:"
+              showon="box-1-link-type:url,article"
+              name="box-1-link-label"
+              type="text"
+              label="Link Label:"
           />
           <field
               showon="box-1-link-type:url"
@@ -97,11 +92,6 @@
               rows="10" cols="80"
           />
           <field
-              name="box-2-link-label"
-              type="text"
-              label="Link Label:"
-          />
-          <field
              name="box-2-link-type"
              type="list"
              label="Link Type"
@@ -109,13 +99,13 @@
              >
              <option value="none">No link</option>
              <option value="url">URL</option>
-             <option value="article">Article</option>
+             <!-- <option value="article">Article</option> -->
           </field>
           <field
-              showon="box-2-link-type:url"
-              name="box-2-link-url"
-              type="url"
-              label="Link URL:"
+              showon="box-2-link-type:url,article"
+              name="box-2-link-label"
+              type="text"
+              label="Link Label:"
           />
           <field
               showon="box-2-link-type:url"
@@ -143,11 +133,6 @@
               rows="10" cols="80"
           />
           <field
-              name="box-3-link-label"
-              type="text"
-              label="Link Label:"
-          />
-          <field
              name="box-3-link-type"
              type="list"
              label="Link Type"
@@ -155,13 +140,13 @@
              >
              <option value="none">No link</option>
              <option value="url">URL</option>
-             <option value="article">Article</option>
+             <!-- <option value="article">Article</option> -->
           </field>
           <field
-              showon="box-3-link-type:url"
-              name="box-3-link-url"
-              type="url"
-              label="Link URL:"
+              showon="box-3-link-type:url,article"
+              name="box-3-link-label"
+              type="text"
+              label="Link Label:"
           />
           <field
               showon="box-3-link-type:url"
