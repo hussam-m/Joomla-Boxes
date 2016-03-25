@@ -24,7 +24,7 @@ else{
           <?php if($params->get('box-1-link-type', '')=='url'): ?>
             <a href="<?=$params->get('box-1-link-url', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
           <?php elseif($params->get('box-1-link-type', '')=='article'): ?>
-            <a href="<?=$params->get('box-1-link-article', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
+            <a href="index.php/component/content/article?id=<?=$params->get('box-1-link-article', '')?>" class="btn btn-primary" role="button"><?=$params->get('box-1-link-label', '')?></a>
           <?php endif; ?>
         <?php endif; ?>
       </div>
