@@ -26,6 +26,16 @@
             <option value="2">2</option>
             <option value="3">3</option>
           </field>
+
+          <field
+             name="layout"
+             type="list"
+             label="Layout"
+             default="horizontal"
+             >
+             <option value="horizontal">Horizontal</option>
+             <option value="vertical">Vertical</option>
+           </field>
         </fieldset>
         <fieldset name="box-1" label="Box 1" showon="numberOfBoxes:1,2,3">
           <field

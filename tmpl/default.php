@@ -2,7 +2,11 @@
 // No direct access
 defined('_JEXEC') or die;
 $numberOfBoxes = $params->get('numberOfBoxes', '');
-$span = "span".(12/$numberOfBoxes);
+$layout = $params->get('layout', '');
+if($layout == "horizontal")
+  $span = "span".(12/$numberOfBoxes);
+else
+  $span = "span12";
 ?>
 
 <div class="row-fluid boxes">
