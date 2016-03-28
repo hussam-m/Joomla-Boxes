@@ -15,7 +15,29 @@
     </files>
     <config>
       <fields name="params">
-        <fieldset name="box-1" label="Box 1">
+        <fieldset name="basic">
+         <field
+            name="numberOfBoxes"
+            type="list"
+            label="Number of boxes"
+            default="3"
+            >
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+          </field>
+
+          <field
+             name="layout"
+             type="list"
+             label="Layout"
+             default="horizontal"
+             >
+             <option value="horizontal">Horizontal</option>
+             <option value="vertical">Vertical</option>
+           </field>
+        </fieldset>
+        <fieldset name="box-1" label="Box 1" showon="numberOfBoxes:1,2,3">
           <field
               name="box-1-title"
               type="text"
@@ -28,17 +50,36 @@
               rows="10" cols="80"
           />
           <field
+             name="box-1-link-type"
+             type="list"
+             label="Link Type"
+             default="none"
+             >
+             <option value="none">No link</option>
+             <option value="url">URL</option>
+             <!-- <option value="article">Article</option> -->
+          </field>
+          <field
+              showon="box-1-link-type:url,article"
               name="box-1-link-label"
               type="text"
               label="Link Label:"
           />
           <field
+              showon="box-1-link-type:url"
               name="box-1-link-url"
               type="url"
               label="Link URL:"
           />
+          <field
+            showon="box-1-link-type:article"
+            name="box-1-link-article"
+            type="menuitem"
+            label="Select an article"
+            description="Select an article" />
+
         </fieldset>
-        <fieldset name="box-2" label="Box 2">
+        <fieldset name="box-2" label="Box 2" showon="numberOfBoxes:2,3">
           <field
               name="box-2-title"
               type="text"
@@ -51,17 +92,35 @@
               rows="10" cols="80"
           />
           <field
+             name="box-2-link-type"
+             type="list"
+             label="Link Type"
+             default="none"
+             >
+             <option value="none">No link</option>
+             <option value="url">URL</option>
+             <!-- <option value="article">Article</option> -->
+          </field>
+          <field
+              showon="box-2-link-type:url,article"
               name="box-2-link-label"
               type="text"
               label="Link Label:"
           />
           <field
+              showon="box-2-link-type:url"
               name="box-2-link-url"
               type="url"
               label="Link URL:"
           />
+          <field
+            showon="box-2-link-type:article"
+            name="box-2-link-article"
+            type="menuitem"
+            label="Select an article"
+            description="Select an article" />
         </fieldset>
-        <fieldset name="box-3" label="Box 3">
+        <fieldset name="box-3" label="Box 3" showon="numberOfBoxes:3">
           <field
               name="box-3-title"
               type="text"
@@ -74,15 +133,33 @@
               rows="10" cols="80"
           />
           <field
+             name="box-3-link-type"
+             type="list"
+             label="Link Type"
+             default="none"
+             >
+             <option value="none">No link</option>
+             <option value="url">URL</option>
+             <!-- <option value="article">Article</option> -->
+          </field>
+          <field
+              showon="box-3-link-type:url,article"
               name="box-3-link-label"
               type="text"
               label="Link Label:"
           />
           <field
+              showon="box-3-link-type:url"
               name="box-3-link-url"
               type="url"
               label="Link URL:"
           />
+          <field
+            showon="box-3-link-type:article"
+            name="box-3-link-article"
+            type="menuitem"
+            label="Select an article"
+            description="Select an article" />
         </fieldset>
       </fields>
     </config>
