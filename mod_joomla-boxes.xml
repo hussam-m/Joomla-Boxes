@@ -36,6 +36,13 @@
              <option value="horizontal">Horizontal</option>
              <option value="vertical">Vertical</option>
            </field>
+
+           <field
+              name="header-color"
+              type="color"
+              label="Header color"
+            />
+
         </fieldset>
         <fieldset name="box-1" label="Box 1" showon="numberOfBoxes:1,2,3">
           <field

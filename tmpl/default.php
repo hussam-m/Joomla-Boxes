@@ -3,6 +3,7 @@
 defined('_JEXEC') or die;
 $numberOfBoxes = $params->get('numberOfBoxes', '');
 $layout = $params->get('layout', '');
+$headerColor = $params->get('header-color', '');
 if($layout == "horizontal")
   $span = "span".(12/$numberOfBoxes);
 else{
@@ -11,6 +12,11 @@ else{
     $afterBox = '</div>';
 }
 ?>
+<style>
+.boxes h3{
+  <?=($headerColor!='')? "color:".$headerColor.";":'';?>
+}
+</style>
 
 <div class="row-fluid boxes">
 
