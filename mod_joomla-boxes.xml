@@ -4,7 +4,7 @@
     <author>Hussam Almoharb</author>
     <authorEmail>hussam.am@gmail.com</authorEmail>
 	  <authorUrl>http://hussam-m.com</authorUrl>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
     <description>Boxes for the homepage.</description>
     <files>
         <filename>mod_joomla-boxes.xml</filename>
